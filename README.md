@@ -30,6 +30,5 @@ The purpose of this project is to implement a simple Clock and Timer application
 3.  Input Hours Minutes and Seconds that you want the Timer to count 
 4.  After every input prees Enter to start the countdown
 
-
 ### 3 - User Support
 For help or new feature suggestions you can contanct with the development team.
