@@ -1,3 +1,6 @@
+import sys
+
+
 class Counter:
     def __init__(self, start = 0):
         self.value = start
@@ -152,6 +155,6 @@ if __name__ == '__main__':
 
     c = Clock(23, 59, 45)
     while True:
-        print(c, end = '\r')
+        sys.stdout.write("\r{0}".format(str(c)))
         sleep(1)
         c.advance()
